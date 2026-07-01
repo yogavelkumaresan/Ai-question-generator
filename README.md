@@ -51,7 +51,7 @@ The system extracts text from uploaded PDF files, stores document embeddings in 
 Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/AI-question-generator.git
+git clone https://github.com/yogavelkumaresan/Ai-question-generator.git
 ```
 
 Install the required packages
