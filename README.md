@@ -1,10 +1,9 @@
 # AI-Powered Question Generator from PDF
 
 ## Overview
+This project is an AI-powered question generation system that automatically creates exam questions from PDF documents using Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG).
 
-AI-Powered Question Generator is a Streamlit-based application that automatically generates exam questions from PDF documents using Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG).
-
-The system extracts text from uploaded PDF files, stores document embeddings in ChromaDB, retrieves relevant content using semantic search, and generates intelligent questions using the Groq Llama 3.3 model.
+The application extracts text from uploaded PDFs, stores semantic embeddings in ChromaDB, retrieves relevant content, and generates different types of questions using the Groq Llama 3.3 model.
 
 ---
 
@@ -34,18 +33,6 @@ The system extracts text from uploaded PDF files, stores document embeddings in 
 
 ---
 
-## Project Workflow
-
-1. Upload a PDF document
-2. Extract text from the PDF
-3. Store embeddings in ChromaDB
-4. Retrieve relevant content
-5. Generate AI-based questions
-6. Evaluate user answers
-7. Display explanations
-
----
-
 ## Installation
 
 Clone the repository
@@ -54,7 +41,7 @@ Clone the repository
 git clone https://github.com/yogavelkumaresan/Ai-question-generator.git
 ```
 
-Install the required packages
+Install dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -68,13 +55,25 @@ streamlit run app.py
 
 ---
 
-## Future Enhancements
+## Project Workflow
 
-- Multi-language support
-- Difficulty level selection
-- User authentication
-- Export questions to PDF
-- Performance analytics dashboard
+1. Upload PDF
+2. Extract Text
+3. Store Embeddings in ChromaDB
+4. Retrieve Relevant Content
+5. Generate Questions
+6. Evaluate Answers
+7. Display AI Explanation
+
+---
+
+## Future Improvements
+
+- Difficulty Levels
+- Multiple Language Support
+- User Authentication
+- Export Questions to PDF
+- Analytics Dashboard
 
 ---
 
@@ -84,8 +83,3 @@ streamlit run app.py
 
 M.Sc Data Science
 
-LinkedIn:
-https://linkedin.com/in/yogavel-k-94096431a
-
-Email:
-yogavel210@gmail.com
